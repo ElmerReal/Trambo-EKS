@@ -11,11 +11,11 @@ In this case this file is ClusterConfig because i want to define a cluster.
 Information about my cluster.
 4. NodeGroups:
 Defining the number of instances that eks will create, and some parametres that could be used for elasticity.
-'''
+```
 nodeGroups:
   - name: ng-1
     instanceType: t2.micro
     minSize: 2
     desiredCapacity: 2
     maxSize: 2
-'''
+```
