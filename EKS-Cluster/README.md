@@ -1,7 +1,7 @@
 # EKS - Cluster
 To define the eks cluster i use the tool eksctl
 
-## Archivo Cluster.yml
+## Cluster.yml File
 This file contains the following blocks
 1. apiVersion
 Indicates the version of the config file
